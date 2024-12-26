@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .menu a:hover {
+    text-decoration: underline;
+}
+
+.home {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home .nav-links {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.home .nav-links a {
+    color: grey;
+    text-decoration: none;
+}
+
+.home .nav-links span {
+    margin: 0 10px;
+}
